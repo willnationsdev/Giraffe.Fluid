@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.0-beta-9681</Version>
+    <Authors>willnationsdev</Authors>
+    <Company>Baylor University</Company>
+    <Description>Fluid template engine http handlers for Giraffe web applications.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/willnationsdev/Giraffe.Fluid</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Giraffe; Fluid</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluid.Core" Version="1.0.0-beta-9681" />
+    <PackageReference Include="Giraffe" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Giraffe.Fluid", "Giraffe.Fluid\Giraffe.Fluid.fsproj", "{8421A74C-572B-4553-AEDB-5785054AB38B}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Giraffe.FluidDemo", "Giraffe.FluidDemo\Giraffe.FluidDemo.fsproj", "{141EDF46-E464-4F13-A1F0-8E1CD9BC74C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8421A74C-572B-4553-AEDB-5785054AB38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8421A74C-572B-4553-AEDB-5785054AB38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8421A74C-572B-4553-AEDB-5785054AB38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8421A74C-572B-4553-AEDB-5785054AB38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141EDF46-E464-4F13-A1F0-8E1CD9BC74C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141EDF46-E464-4F13-A1F0-8E1CD9BC74C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141EDF46-E464-4F13-A1F0-8E1CD9BC74C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141EDF46-E464-4F13-A1F0-8E1CD9BC74C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0711A55A-C093-4E80-8FA9-14DD07FCB992}
+	EndGlobalSection
+EndGlobal
